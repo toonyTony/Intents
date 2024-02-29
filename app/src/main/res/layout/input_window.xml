@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextRent1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Стоимость 1" />
+
+    <EditText
+        android:id="@+id/editTextRent2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Стоимость 2" />
+
+    <EditText
+        android:id="@+id/editTextRent3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Стоимость 3" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonTaxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Такси" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMinibus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Микроавтобус" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Автобус" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сохранить" />
+
+</LinearLayout>
